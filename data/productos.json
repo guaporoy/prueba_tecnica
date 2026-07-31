@@ -1,0 +1,13 @@
+[ {
+  "id" : 1,
+  "nombre" : "Queso Paipa",
+  "precio" : 20000.0,
+  "stock" : 30,
+  "categoria" : "Lácteos"
+}, {
+  "id" : 2,
+  "nombre" : "queso pera",
+  "precio" : 25000.0,
+  "stock" : 10,
+  "categoria" : "lacteos"
+} ]
