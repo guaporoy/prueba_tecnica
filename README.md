@@ -54,8 +54,6 @@ intalacion del proyecto
    http://localhost:8080
    ```
 
-Al iniciar por primera vez, el sistema crea automáticamente `data/productos.json` con un producto de ejemplo (un Queso Paipa, para que veas cómo luce un registro real desde el primer momento).
-
 Endpoints de la API
 
 | Método | Ruta                  | Descripción                  |
