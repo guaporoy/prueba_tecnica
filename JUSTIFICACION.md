@@ -4,7 +4,7 @@
 
 Elegí **Java 17 + Spring Boot** porque es el stack que estoy usando en mi formación como Ingeniero de Sistemas 
 
-Para la persistencia decidí usar un **archivo JSON** en lugar de una base de datos relacional (MySQL, PostgreSQL, etc.). La razón es puramente de alcance: el objetivo del ejercicio es demostrar el CRUD y la organización del proyecto. Un archivo JSON permite que cualquier persona clone el proyecto y lo ejecute con un solo comando (`mvn spring-boot:run`), sin instalar ni configurar nada adicional. Si el proyecto creciera o necesitara concurrencia real, el siguiente paso natural sería migrar el `ProductoRepository` a JPA + una base de datos, manteniendo intacto el resto de las capas (servicio y controlador), ya que la lógica de negocio no depende de cómo se guardan los datos.
+Para la persistencia decidí usar un **archivo JSON** en lugar de una base de datos relacional (MySQL, PostgreSQL, etc.). La razón es puramente de alcance: el objetivo del ejercicio es demostrar el CRUD y la organización del proyecto.
 
 Para el frontend usé **HTML, CSS y JavaScript puro**, servido como archivos estáticos por el propio Spring Boot. Esto evita añadir un segundo proceso de build (Node, npm) y mantiene el proyecto en un solo repositorio y un solo comando de arranque, lo cual es coherente con la simplicidad que pedía el ejercicio.
 
