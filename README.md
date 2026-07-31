@@ -75,4 +75,4 @@ Validaciones incluidas
 -Si intentas leer, actualizar o eliminar un producto que no existe, la API responde `404` con un mensaje de error.
 
 Dificultad
- pues esta un poco complejo ya que habia cosas que se me olvidaron 
+ pues esta un poco complejo ya que habia cosas que se me olvidaron "como un postre a sus medidas perfectas queda sabroso" 
