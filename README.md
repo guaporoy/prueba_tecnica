@@ -66,16 +66,6 @@ Endpoints de la API
 | PUT    | /api/productos/{id}   | Actualiza un producto existente |
 | DELETE | /api/productos/{id}   | Elimina un producto           |
 
-Ejemplo de cuerpo para crear/actualizar (POST/PUT):
-
-```json
-{
-  "nombre": "Queso Campesino",
-  "precio": 9800,
-  "stock": 15,
-  "categoria": "Lácteos"
-}
-```
 
 Validaciones incluidas
 
@@ -85,4 +75,4 @@ Validaciones incluidas
 -Si intentas leer, actualizar o eliminar un producto que no existe, la API responde `404` con un mensaje de error.
 
 Dificultad
- pues no esta un poco complejo desde la persistencia 
+ pues esta un poco complejo ya que habia cosas que se me olvidaron 
