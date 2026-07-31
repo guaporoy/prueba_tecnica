@@ -1,10 +1,5 @@
 package com.example.productos.repositories;
 
-import com.example.productos.models.Producto;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
-import org.springframework.stereotype.Repository;
-
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
@@ -12,6 +7,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.locks.ReentrantLock;
+
+import org.springframework.stereotype.Repository;
+
+import com.example.productos.models.Producto;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 
 
 @Repository
